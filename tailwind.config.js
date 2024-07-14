@@ -10,7 +10,19 @@ export default {
         greenCustom : '#abe8dc',
         blueNav : '#2b50b0',
         bgCard : '#E6ECF9',
-        primaryCust : '#2B50B0',
+        bgButton : '#F6F9FF',
+        primaryCust : {
+          DEFAULT: '#2B50B0',
+          dark : '#121127'
+        },
+        
+        primary700 : '#1A316B',
+        greyCust: {
+          DEFAULT : '#7D8797',
+          dark : '#6D7791',
+        },
+        
+        
       },
 
       backgroundImage:{

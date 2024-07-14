@@ -57,13 +57,13 @@ import Check from "./atoms/Check.vue";
                     </div>
                     <div class="text-center text-white md:my-5">
                         <p>Cerchi un piano su misura per la tua azienda?</p>
-                        <p class="underline">Scopri il piano PRO</p>
+                        <p class="underline font-bold">Scopri il piano PRO</p>
                     </div>
                 </div>
             </div>
 
         </div>
-</div>
+    </div>
 
 
 
