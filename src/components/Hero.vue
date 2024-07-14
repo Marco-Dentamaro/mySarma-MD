@@ -1,5 +1,5 @@
 <script setup>
-import Check from "./atoms/Check.vue";
+
 import CardGo from "./atoms/CardGo.vue";
 
 </script>
@@ -26,7 +26,6 @@ import CardGo from "./atoms/CardGo.vue";
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 

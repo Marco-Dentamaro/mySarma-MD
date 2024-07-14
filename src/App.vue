@@ -6,6 +6,7 @@ import Section from "./components/Section.vue";
 import Banner from "./components/Banner.vue";
 import CallToAction from "./components/CallToAction.vue";
 import MailBanner from "./components/MailBanner.vue";
+import Footer from "./components/Footer.vue";
 
 
 </script>
@@ -16,8 +17,9 @@ import MailBanner from "./components/MailBanner.vue";
   <Main />
   <Section />
   <Banner />
-  <CallToAction/>
-  <MailBanner/>
+  <CallToAction />
+  <MailBanner />
+  <Footer />
     
 </template>
 
