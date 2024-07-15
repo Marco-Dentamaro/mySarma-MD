@@ -1,54 +1,56 @@
-<script setup>
-import BtnArticle from "./atoms/BtnArticle.vue";
+<script>
+import BtnArticle from './atoms/BtnArticle.vue';  // Assicurati di importare anche questo componente
+import WelfareCard from './atoms/WelfareCard.vue';
+
+export default {
+  components: {
+    WelfareCard,
+    BtnArticle
+  }
+}
 </script>
 
-
 <template>
-    <div class="w-full h-screen flex flex-col justify-around">
-        <div class="flex flex-col text-center">
-            <h2 class="text-7xl font-bold text-primaryCust-dark leading-normal">Welfare aziendale?</h2>
-            <h3 class="text-2xl text-greyCust ">Te lo diciamo noi se non lo sai</h3>
+
+        <div class="w-full min-h-[800px] flex flex-col justify-around mt-20 md:mt-0">
+            <div class="flex flex-col text-center">
+                <h2 class="md:text-7xl text-5xl  font-bold text-primaryCust-dark leading-normal">Welfare aziendale?</h2>
+                <h3 class="text-2xl py-4 text-greyCust ">Te lo diciamo noi se non lo sai</h3>
+            </div>
+    
+            <!-- contenitore articoli -->
+            <div class="flex w-full md:justify-evenly md:flex-row flex-col items-center ">
+    
+                <WelfareCard
+                    imgSrc="src/media/img1.png"
+                    imgAlt="img1"
+                    title="Cos’è il Welfare Aziendale?"
+                    subtitle="Tutti ne parlano ma pochi conoscono il suo potenziale"
+                />
+
+                <WelfareCard
+                    imgSrc="src/media/img2.png"
+                    imgAlt="img2"
+                    title="Come posso attrarre?"
+                    subtitle="Fidelizza e attrai nuovi talenti con un piano welfare mirato"
+                />
+    
+                <WelfareCard
+                    imgSrc="src/media/img3.png"
+                    imgAlt="img3"
+                    title="Normative e vantaggi fiscali"
+                    subtitle="Risparmiare è facile grazie al tuo nuovo piano welfare"
+                />
+    
+                <WelfareCard
+                    imgSrc="src/media/img4.png"
+                    imgAlt="img4"
+                    title="Storie attrattive"
+                    subtitle="Ascolta le testimonianze di chi ha ha migliorato il proprio stile di vita"
+                />
+                
+            </div>
+    
         </div>
 
-        <!-- contenitore articoli -->
-        <div class="flex w-full justify-evenly ">
-
-            <div class="w-1/5 h-[300px] flex flex-col text-center justify-evenly items-center ">
-                <img src="../media/img1.png" alt="img1">
-                <div>
-                    <h4 class="font-bold text-greyCust-dark text-lg">Cos’è il Welfare Aziendale?</h4>
-                    <h5 class="text-greyCust-dark text-lg">Tutti ne parlano ma pochi conoscono il suo potenziale</h5>
-                </div>
-                <BtnArticle/>
-            </div>
-
-            <div class="w-1/5 h-[300px] flex flex-col text-center justify-evenly items-center  ">
-                <img src="../media/img2.png" alt="img2">
-                <div>
-                    <h4 class="font-bold text-greyCust-dark text-lg">Come posso attrarre? </h4>
-                    <h5 class="text-greyCust-dark text-lg">Fidelizza e attrai nuovi talenti con un piano welfare mirato</h5>
-                </div>
-                <BtnArticle/>
-            </div>
-
-            <div class="w-1/5 h-[300px] flex flex-col text-center justify-evenly items-center  ">
-                <img src="../media/img3.png" alt="img3">
-                <div>
-                    <h4 class="font-bold text-greyCust-dark text-lg">Normative e vantaggi fiscali </h4>
-                    <h5 class="text-greyCust-dark text-lg">Risparmiare è facile grazie al tuo nuovo piano welfare</h5>
-                </div>
-                <BtnArticle/>
-            </div>
-
-            <div class="w-1/5 h-[300px] flex flex-col text-center justify-evenly items-center  ">
-                <img src="../media/img4.png" alt="img4">
-                <div>
-                    <h4 class="font-bold text-greyCust-dark text-lg">Storie attrattive</h4>
-                    <h5 class="text-greyCust-dark text-lg">Ascolta le testimonianze di chi ha ha migliorato il proprio stile di vita</h5>
-                </div>
-                <BtnArticle/>
-            </div>
-        </div>
-
-    </div>
 </template>

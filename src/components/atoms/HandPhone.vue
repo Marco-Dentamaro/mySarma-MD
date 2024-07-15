@@ -36,4 +36,7 @@
 </defs>
 </svg>
 
+<!-- in caso l'SVG dia problemi in fase di rendering -->
+<!-- <img src="../../media/phoneHand1.png" alt=""> -->
+
 </template>
