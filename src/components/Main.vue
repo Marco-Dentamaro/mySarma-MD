@@ -11,7 +11,7 @@ import HandPhone from "./atoms/HandPhone.vue";
             <div class="flex flex-col md:flex-row w-full justify-center items-center h-[800px] ">
                 <!-- col sx -->
                 <div class="w-full md:w-1/2 md:h-1/2 flex flex-col justify-around">
-                    <h2 class="lg:text-7xl text-5xl text-primary700 font-bold mb-20 md:m-0">App</h2>
+                    <h2 class="lg:text-7xl text-5xl text-primary700 font-bold mb-4 md:m-0">App</h2>
                     <div class="md:hidden flex justify-center">
                         <HandPhone />
                     </div>

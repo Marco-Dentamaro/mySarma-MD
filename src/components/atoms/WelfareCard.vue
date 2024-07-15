@@ -28,18 +28,20 @@ export default {
 </script>
 
 <template>
-    <div class="md:w-1/5 w-full md:h-[300px] flex flex-col text-center justify-evenly items-center">
-        <div class="flex flex-col justify-between h-[400px]">
+    <div class="md:w-1/5 w-full lg:h-[340px] flex flex-col text-center justify-evenly items-center">
+        <div class="flex flex-col justify-around h-[380px] my-4 ">
 
-            <div class="h-[240px] my-4 flex justify-center">
+            <div class="h-[128px] flex justify-center">
                 <img class="h-full" :src="imgSrc" :alt="imgAlt">
             </div>
             <div>
-                <h4 class="font-bold text-greyCust-dark text-lg">{{ title }}</h4>
-                <h5 class="text-greyCust-dark text-lg">{{ subtitle }}</h5>
+                <h4 class="font-bold text-greyCust-dark text-2xl md:text-lg">{{ title }}</h4>
+                <h5 class="text-greyCust-dark text-lg px-8">{{ subtitle }}</h5>
+            </div>
+            <div class="flex justify-center">
+              <BtnArticle />
             </div>
         </div>
-        <BtnArticle />
     </div>
 </template>
 
