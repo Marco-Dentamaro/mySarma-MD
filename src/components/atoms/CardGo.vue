@@ -4,9 +4,9 @@ import Check from "./Check.vue";
 
 <template>
 
-<div class="bg-bgCard max-h-[620px] md:w-[420px] rounded-2xl py-6 px-14 text-center">
+<div class="bg-bgCard max-h-[620px] md:w-[420px] w-[350px] rounded-2xl py-6 px-10 mt-20 text-center">
         <p class="text-2xl text-primaryCust font-bold">Piano GO!</p>
-        <p class="text-xs">a partire da</p>
+        <p class="text-xs my-2">a partire da</p>
         <div class="flex justify-center">
             <p class="text-6xl font-extrabold">€12</p>
             <div class="flex flex-col items-center">
@@ -24,8 +24,25 @@ import Check from "./Check.vue";
 
         <div class=" border-black border-b-2 my-5"></div>
 
-        <div class="flex flex-col items-center justify-between">
-            <ul class="text-start ">
+        <div class="md:hidden flex justify-center  " id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type="button">
+            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.25151 4.23725e-07L-3.05553e-07 1.21337L7 8L14 1.21337L12.7485 -6.41861e-08L7 5.57326L1.25151 4.23725e-07Z" fill="#A1B5E8"/>
+            </svg>
+
+        </div>
+
+        <div>
+            <button class="bg-white hover:bg-primary200 hover:transition-colors w-[243px] rounded-xl h-12 my-8 font-extrabold md:hidden">Attiva Piano GO!</button>
+        </div>
+
+        <div class="md:hidden">
+            <p class="text-black200">Vuoi maggiori informazioni sul piano?</p>
+            <p class="text-primaryCust underline font-bold">Scopri di più</p>
+        </div>
+
+        <div class="hidden md:flex flex-col items-center justify-between" id="dropdown">
+            <ul class="text-start  " aria-labelledby="dropdownDefaultButton" >
+                
                 <li class="flex items-center"> <Check/> <span class="mx-2">Utenti illimitati</span> </li>
                 <li class="flex items-center my-3"> <Check/><span class="mx-2">Piattaforma MySarma</span></li>
                 <li class="flex items-center"> <Check/><span class="mx-2">Gestione del contratto online</span></li>
@@ -34,10 +51,10 @@ import Check from "./Check.vue";
                 <li class="flex items-center my-3"> <Check/><span class="mx-2">Sconti e Coupon</span></li>
             </ul>
 
-            <button class="bg-white hover:bg-primary200 hover:transition-colors w-4/5 rounded-xl h-12 my-8 font-extrabold">Attiva Piano GO!</button>
+            <button class="bg-white hover:bg-primary200 hover:transition-colors w-[243px] rounded-xl h-12 my-8 font-extrabold">Attiva Piano GO!</button>
 
-            <div>
-                <p class="text-slate-500">Vuoi maggiori informazioni sul piano?</p>
+            <div class="hidden md:flex md:flex-col">
+                <p class="text-black200 ">Vuoi maggiori informazioni sul piano?</p>
                 <a href="" class="underline text-primaryCust font-bold">Scopri di più</a>
             </div>
 

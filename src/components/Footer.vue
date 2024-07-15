@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div  class="bg-black600 md:h-[250px] flex w-full items-center py-14 ">
+    <div  class="bg-black600 md:h-[250px] lg:flex w-full items-center py-14 hidden ">
 
         <div class="flex justify-evenly h-4/5 w-3/4 ">
 

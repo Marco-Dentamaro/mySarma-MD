@@ -12,6 +12,7 @@ export default {
         secondary100 : '#F1F0FA',
         secondary300 : '#A9A5DF',
         black100 : '#E8E8E8',
+        black200 : '#A7AEBE',
         black600 : '#121B30',
         greenCustom : '#abe8dc',
         greenCustom500 : '#34BFA3',
