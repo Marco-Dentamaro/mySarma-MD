@@ -4,7 +4,7 @@ import Check from "./Check.vue";
 
 <template>
 
-<div class="bg-bgCardPro min-h-3/4 md:w-[420px] rounded-2xl py-6 px-14 text-center">
+<div class="bg-bgCardPro min-h-[820px] md:w-[420px] w-[350px] rounded-2xl py-6 px-8 text-center">
         <p class="text-2xl text-primaryCust font-bold">Piano PRO</p>
         <p class="text-xs">a partire da</p>
         <div class="flex justify-center">
@@ -41,7 +41,14 @@ import Check from "./Check.vue";
             
             </ul>
 
-            <button class="bg-white hover:bg-primary200 hover:transition-colors w-4/5 rounded-xl h-12 my-8 font-extrabold">Calcola preventivo</button>
+            <div class="md:hidden flex justify-center rotate-180 mt-3" id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type="button">
+            <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.25151 4.23725e-07L-3.05553e-07 1.21337L7 8L14 1.21337L12.7485 -6.41861e-08L7 5.57326L1.25151 4.23725e-07Z" fill="#A1B5E8"/>
+            </svg>
+
+        </div>
+
+            <button class="bg-white hover:bg-primary200 hover:transition-colors w-[243px] rounded-xl h-12 my-8 font-extrabold">Calcola preventivo</button>
 
             <div>
                 <p class="text-slate-500">Vuoi maggiori informazioni sul piano?</p>

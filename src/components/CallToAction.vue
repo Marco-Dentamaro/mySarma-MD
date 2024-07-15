@@ -8,27 +8,27 @@ import CardPro from "./atoms/CardPro.vue";
 
 <template>
 
-<div class="w-full flex justify-center mb-24">
-    <div class="min-h-screen w-2/3 flex flex-col justify-center">
+<div class="w-full flex lg:flex-row flex-col lg:justify-center md:mb-24">
+    <div class="min-h-screen md:w-2/3 w-full flex flex-col justify-center mt-20">
 
         <div class="h-1/3 flex w-full items-center justify-center md:my-24">
 
             <div class="text-center">
-                <h2 class="text-5xl text-primaryCust-dark font-bold leading-normal">Attiva il tuo piano</h2>
-                <h2 class="text-5xl text-primaryCust-dark font-bold">Go oppure Pro</h2>
-                <p class="text-greyCust text-2xl my-6">Scegli se attiavre subito il Piano Go oppure richiedere <br> 
+                <h2 class="md:text-5xl text-[30px]  text-primaryCust-dark font-bold leading-normal">Attiva il tuo piano</h2>
+                <h2 class="md:text-5xl text-[30px] text-primaryCust-dark font-bold">Go oppure Pro</h2>
+                <p class="text-greyCust text-2xl m-6">Scegli se attiavre subito il Piano Go oppure richiedere <br> 
                     un preventivo per il Piano Pro al nostro consulente </p>
             </div>
         </div>
 
         <!-- sezione card -->
-        <div class="flex w-full justify-center">
+        <div class="flex md:flex-row flex-col w-full h-full">
 
-            <div class="w-1/2 flex justify-center">
+            <div class="md:w-1/2 w-full flex justify-center ">
                <CardGo />
             </div>
 
-            <div class="w-1/2 flex justify-center">
+            <div class="md:w-1/2 w-full flex justify-center md:m-0 mt-20">
                <CardPro />
             </div>
         </div>
