@@ -24,7 +24,7 @@ import Check from "./Check.vue";
 
         <div class=" border-black border-b-2 my-5"></div>
 
-        <div class="md:hidden flex justify-center" id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type="button">
+        <div class="md:hidden flex justify-center" >
             <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.25151 4.23725e-07L-3.05553e-07 1.21337L7 8L14 1.21337L12.7485 -6.41861e-08L7 5.57326L1.25151 4.23725e-07Z" fill="#A1B5E8"/>
             </svg>
@@ -40,8 +40,8 @@ import Check from "./Check.vue";
             <p class="text-primaryCust underline font-bold">Scopri di più</p>
         </div>
 
-        <div class="hidden md:flex flex-col items-center justify-between" id="dropdown">
-            <ul class="text-start  " aria-labelledby="dropdownDefaultButton" >
+        <div class="hidden md:flex flex-col items-center justify-between" >
+            <ul class="text-start">
                 
                 <li class="flex items-center"> <Check/> <span class="mx-2">Utenti illimitati</span> </li>
                 <li class="flex items-center my-3"> <Check/><span class="mx-2">Piattaforma MySarma</span></li>
