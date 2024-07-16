@@ -22,9 +22,9 @@ import CardPro from "./atoms/CardPro.vue";
         </div>
 
         <!-- sezione card -->
-        <div class="flex lg:flex-row flex-col items-center w-full h-full">
+        <div class="flex lg:flex-row flex-col w-full h-full">
 
-            <div class="md:w-1/2 w-full flex justify-center ">
+            <div class="md:w-1/2 w-full flex justify-center">
                <CardGo />
             </div>
 
