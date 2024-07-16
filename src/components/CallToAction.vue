@@ -8,8 +8,8 @@ import CardPro from "./atoms/CardPro.vue";
 
 <template>
 
-<div class="w-full flex lg:flex-row flex-col lg:justify-center md:mb-24">
-    <div class="min-h-screen md:w-2/3 w-full flex flex-col justify-center mt-20">
+<div class="w-full flex lg:flex-row flex-col lg:justify-center md:mb-24 ">
+    <div class="min-h-screen lg:w-2/3 w-full flex flex-col justify-center mt-20">
 
         <div class="h-1/3 flex w-full items-center justify-center md:my-24">
 
@@ -22,13 +22,13 @@ import CardPro from "./atoms/CardPro.vue";
         </div>
 
         <!-- sezione card -->
-        <div class="flex md:flex-row flex-col w-full h-full">
+        <div class="flex lg:flex-row flex-col items-center w-full h-full">
 
             <div class="md:w-1/2 w-full flex justify-center ">
                <CardGo />
             </div>
 
-            <div class="md:w-1/2 w-full flex justify-center md:m-0 mt-20">
+            <div class="md:w-1/2 w-full flex justify-center lg:m-0 mt-20">
                <CardPro />
             </div>
         </div>

@@ -7,7 +7,7 @@ import HandPhone from "./atoms/HandPhone.vue";
     
 
     <div class="flex justify-center mt-40 pt-20 md:mt-0 md:pt-0 mx-6">
-        <div class="container mt-40 md:mt-0 lg:mx-40">
+        <div class="container mt-10 md:mt-40 lg:mt-0 lg:mx-40">
             <div class="flex flex-col md:flex-row w-full justify-center items-center h-[800px] ">
                 <!-- col sx -->
                 <div class="w-full md:w-1/2 md:h-1/2 flex flex-col justify-around">

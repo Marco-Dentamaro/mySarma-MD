@@ -1,8 +1,8 @@
 <template>
     <div class="mt-20 bg-bgMail h-[400px] bg-cover w-full flex flex-col md:flex-row items-center justify-around">
-        <div class="md:w-1/5 w-full ms-10">
+        <div class="md:w-1/5 w-[390px] ms-3">
             <h3 class="text-3xl text-white font-bold my-2">Resta aggiornato</h3>
-            <p class="text-lg text-primary100">Iscriviti alla newsletter per ricevere aggiornamenti  sulle nuove offerte e partner MySarma</p>
+            <p class="text-lg text-primary100 ">Iscriviti alla newsletter per ricevere <br> aggiornamenti  sulle nuove offerte e partner MySarma</p>
         </div>
 
         <div class="md:w-1/2 px-4 w-full">
